@@ -16,7 +16,7 @@ export default class App extends React.Component {
   }
 
   getApiUrl() {
-    return process.env.API_URL || 'https://shtnr-api.herokuapp.com'
+    return process.env.API_URL || 'https://url-shtnr-dev.herokuapp.com/'
   }
 
   handleChange(event) {
